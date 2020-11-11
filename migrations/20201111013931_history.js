@@ -5,7 +5,6 @@ exports.up = function(knex) {
         table.integer('user_id')
         table.string('description', 100).unsigned()
         table.foreign('user_id').references('user.id')
-        table.timestamps()
     })
 };
 
