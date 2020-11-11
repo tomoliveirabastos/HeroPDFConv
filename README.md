@@ -1,3 +1,11 @@
 # HeroPDFConv
 
-run migrations - npx knex migrate:latest --knexfile config.js
+run migrations
+```bash
+npx knex migrate:latest --knexfile config.js
+```
+
+requirements
+```bash
+libreoffice ^6
+```
